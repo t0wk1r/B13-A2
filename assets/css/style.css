@@ -29,7 +29,24 @@ header{
     background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
     background-clip: text;
     color: transparent;
+    animation: waveGlow 2s infinite ease-in-out;
 }
+
+@keyframes waveGlow{
+    0%{
+        transform: translateY(0);
+        text-shadow: 0 0 0 rgba(0,255,136,0);
+    }
+    50%{
+        transform: translateY(-6px);
+        text-shadow: 0 0 15px rgba(0,255,136,0.8);
+    }
+    100%{
+        transform: translateY(0);
+        text-shadow: 0 0 0 rgba(0,255,136,0);
+    }
+}
+
 
 nav ul{
     display: flex;
