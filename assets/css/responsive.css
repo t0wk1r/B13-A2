@@ -16,7 +16,95 @@
     .content {
         width: 300px;
     }
-    .badge{
-    left: 75%;
-}
+
+    .badge {
+        left: 75%;
+    }
+
+    .test-n-btn {
+        padding: 0 20px;
+    }
+
+    .test-n-btn h1 {
+        font-size: 54px;
+
+    }
+
+    .content-header {
+        width: 90%;
+
+    }
+
+    .card-body {
+        justify-content: center;
+    }
+
+    .card-item {
+        width: 50%;
+    }
+
+    .choose-techwave {
+        padding: 40px 20px;
+    }
+
+    .choose-techwave-title {
+        font-size: 28px;
+    }
+
+    .container {
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        /* max-height: 700px; */
+    }
+
+    .container div {
+        grid-column: auto !important;
+        grid-row: auto !important;
+    }
+
+    .feature-host {
+        padding: 40px 20px;
+    }
+
+    .fearute-title {
+        font-size: 32px;
+    }
+
+    .feature-card {
+        flex-direction: column;
+    }
+
+    .feature-card-item {
+        width: 100%;
+        margin: 25px 0;
+    }
+
+    .host-card {
+        flex-direction: column;
+
+    }
+
+    .host-info {
+        text-align: center;
+    }
+
+    .social-icon-group a {
+
+        padding: 10px;
+
+
+    }
+
+    .icon-group ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .icon-group ul li {
+        width: 50%;
+        margin: 15px 0;
+        text-align: center;
+    }
 }

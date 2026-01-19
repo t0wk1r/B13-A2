@@ -180,6 +180,7 @@ nav ul li a{
     margin: 100px auto 50px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .card-item{
     width: 240px;
@@ -355,7 +356,6 @@ nav ul li a{
     width: 20px;
     height: 20px;
     width: auto;
-    line-height: 20px;
 
 }
 
