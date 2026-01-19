@@ -32,7 +32,14 @@
 
     .content-header {
         width: 90%;
+    }
 
+    .content-header h1 {
+        font-size: 32px;
+    }
+
+    .content-header p {
+        font-size: 16px;
     }
 
     .card-body {
