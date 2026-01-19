@@ -193,4 +193,70 @@ nav ul li a{
     font-size: 16px;
 }
 
+/* choose-techwave  */
+.choose-techwave{
+    width: 100%;
+    background-color: #230E3D;
+    padding: 120px 200px;
+}
+
+.choose-techwave-title{
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.container{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.container div{
+    background-color: #1A0B2E;
+    border-radius: 15px;
+    font-size: 48px;
+    color: white;
+}
+
+
+
+.card-item1{
+    grid-row: 1/3;
+}
+
+.card-item2, .card-item3{
+    grid-column: 2/-1;
+}
+
+.card-item4{
+    grid-column: 1/-2;
+}
+
+.card-title{
+    font-size: 24px;
+    margin: 8px 0;
+}
+
+.card-description{
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.aling{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.card-img{
+    width: 60px;
+    height: 60px;
+}
 
