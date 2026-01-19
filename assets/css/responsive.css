@@ -1,7 +1,8 @@
 @media screen and (max-width: 576px) {
-    header{
+    header {
         padding: 0 50px;
     }
+
     nav,
     .header-btn {
         display: none;
@@ -11,4 +12,11 @@
         display: block;
         background-color: black;
     }
+
+    .content {
+        width: 300px;
+    }
+    .badge{
+    left: 75%;
+}
 }
