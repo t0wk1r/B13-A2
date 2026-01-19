@@ -1,0 +1,14 @@
+@media screen and (max-width: 576px) {
+    header{
+        padding: 0 50px;
+    }
+    nav,
+    .header-btn {
+        display: none;
+    }
+
+    .hamburfer-btn {
+        display: block;
+        background-color: black;
+    }
+}
